@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a4fefa6-827b-4171-bf1c-292f060f9ce5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PracticeExerciseChapter7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LargestInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReverseOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SumWithoutSmallest.java" afterDir="false" />
+    <list default="true" id="5a4fefa6-827b-4171-bf1c-292f060f9ce5" name="Changes" comment="PracticeExercise commited">
+      <change afterPath="$PROJECT_DIR$/src/RandomPermutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RandomSequenceSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +24,29 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Saima-124&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Saima-124/PracticeExercise7.git&quot;,
+    &quot;accountId&quot;: &quot;6751f689-00d8-4927-bf3d-7a31da569703&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2gmMKuLRdCYdLzu35RWef2ypRFC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,7 +59,10 @@
   "keyToString": {
     "Application.ArrayOutput.executor": "Run",
     "Application.LargestInArray.executor": "Run",
+    "Application.RandomPermutations.executor": "Run",
+    "Application.RandomSequenceSorter.executor": "Run",
     "Application.ReverseOrder.executor": "Run",
+    "Application.Sequence.executor": "Run",
     "Application.SumWithoutSmallest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -56,14 +70,7 @@
     "onboarding.tips.debug.path": "D:/PracticeExerciseChapter7/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SumWithoutSmallest">
-    <configuration name="ArrayOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayOutput" />
-      <module name="PracticeExerciseChapter7" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Sequence">
     <configuration name="LargestInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LargestInArray" />
       <module name="PracticeExerciseChapter7" />
@@ -71,8 +78,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseOrder" />
+    <configuration name="RandomPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomPermutations" />
+      <module name="PracticeExerciseChapter7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomSequenceSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomSequenceSorter" />
+      <module name="PracticeExerciseChapter7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sequence" />
       <module name="PracticeExerciseChapter7" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,10 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sequence" />
+        <item itemvalue="Application.RandomSequenceSorter" />
+        <item itemvalue="Application.RandomPermutations" />
         <item itemvalue="Application.SumWithoutSmallest" />
         <item itemvalue="Application.LargestInArray" />
-        <item itemvalue="Application.ArrayOutput" />
-        <item itemvalue="Application.ReverseOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +125,20 @@
       <option name="presentableId" value="Default" />
       <updated>1716298241554</updated>
     </task>
+    <task id="LOCAL-00001" summary="PracticeExercise commited">
+      <option name="closed" value="true" />
+      <created>1716299412739</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716299412739</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PracticeExercise commited" />
+    <option name="LAST_COMMIT_MESSAGE" value="PracticeExercise commited" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
